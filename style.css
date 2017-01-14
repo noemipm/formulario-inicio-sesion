@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    margin: 0 auto;
+    width: 900px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+
+
+
+.row-align {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.column-align {
+    display: flex;
+    flex-direction: column;
+    color: #999;
+    font-size: 18px;
+}
+
+.login {
+    display: flex;
+    align-items: flex-end;
+}
+
+.datospersonales {
+    cursor: text;    
+}
+
+.genero {
+    display: flex;
+}
+
+label {
+    display: flex;
+}
+
+.fecha {
+
+display: flex;
+}
+
+#button { 
+    padding-left: 90px; /* mismo tamaño a todos los elementos label */
+    background-color: green;
+    border-radius:4px;
+    color:white;
+    font-weight: bold;
+}
+
+
+
+

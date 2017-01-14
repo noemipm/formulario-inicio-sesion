@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Formulario facebook</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+</head>
+<body>
+
+	<form action="/my-handling-form-page" method="post" class="row-align">
+
+		<div class="column-align">
+			<label for="mail">Email</label>
+			<input type="email" id="email"/>
+		</div>
+		<div class="column-align">
+			<label for="password">Password</label>
+			<input type="password" id="password"/>
+		</div>
+		<div class="login">
+			<button type="submit" class="button">Log in</button>
+		</div>
+	</form>
+
+
+	<form action="/my-handling-form-page" method="post">
+		<h1>Create an account</h1>
+		<h2>It's free and always will be</h2>
+
+		<div class="datospersonales">
+			<input type="text" placeholder="First name">
+			<input type="text" placeholder="Last name"> 
+			<input type="email" placeholder="Email">
+			<input type="email" placeholder="Re-enter email" >
+			<input type="password" placeholder="New password" >
+
+		</div>
+
+		<h2> Birthday </h2>
+
+		<div class="fecha">
+			<div>
+				
+				<select id="day"> 
+					<option> Day</option>
+				</select>
+			</div>
+
+			<div>
+				
+				<select id="month"> 
+					<option> Month </option>
+				</select>
+			</div>
+
+			<div>
+				
+				<select id="year"> 
+					<option> Year</option>
+				</select>
+			</div>
+		</div>
+
+
+		<input type="radio" name="genero"> Female
+		<input type="radio" name="genero"> Male
+		<div>
+
+			<button type="submit" id="button">Sign up</button>
+		</div>
+
+	</form>
+
+
+	<script type="text/javascript" src="index.js"></script>
+
+
+</body>
+</html>
